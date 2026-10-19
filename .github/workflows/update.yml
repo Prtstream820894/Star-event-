@@ -2,7 +2,7 @@ name: Auto Update Playlist & Images
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Har 30 minute me run hoga
+    - cron: '*/30 * * * *' # Har 30 min me automatic chalega
   workflow_dispatch:
 
 jobs:
@@ -27,5 +27,5 @@ jobs:
           git config --global user.name "IPTV Bot"
           git config --global user.email "bot@github.com"
           git add -A
-          git commit -m "Auto-update playlist and real PNG images [skip ci]" || exit 0
+          git commit -m "Auto-update YT thumbnails and playlist [skip ci]" || exit 0
           git push
