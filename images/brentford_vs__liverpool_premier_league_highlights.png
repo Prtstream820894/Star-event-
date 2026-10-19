@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-        <rect width="100%" height="100%" fill="#0f172a"/>
-        <rect x="40" y="40" width="720" height="720" rx="35" fill="#1e293b" stroke="#334155" stroke-width="6"/>
-        <text x="50%" y="170" dominant-baseline="middle" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="38" font-weight="bold">🔴 LIVE STREAM</text>
-        <text x="50%" y="380" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="bold">BRENTFORD VS. LIVERPOOL-PREMIER LEAGUE HIGHLIGHTS</text>
-        <text x="50%" y="650" dominant-baseline="middle" text-anchor="middle" font-size="65">🏆</text>
-    </svg>

@@ -2,6 +2,6 @@
   "name": "iptv-manager",
   "version": "1.0.0",
   "dependencies": {
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.5"
   }
 }
