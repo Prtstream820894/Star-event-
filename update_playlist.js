@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const sharp = require('sharp');
 
 const PLAYLIST_URL = "https://server-iota-nine-71.vercel.app/api/event";
 const IMG_DIR = path.join(__dirname, 'images');
@@ -13,7 +12,8 @@ function getSafeFileName(title) {
     return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
 }
 
-function createSvgContent(title) {
+// Direct real image URL generator (Jo ki ek asli PNG image return karega)
+function getDirectPngUrl(title) {
     let cleanTitle = title.trim().replace(/^Live[\-\s]*/i, '');
     let parts = cleanTitle.split('-');
     if (parts.length >= 2 && parts[0].trim() === parts[1].trim()) {
@@ -53,13 +53,10 @@ function createSvgContent(title) {
     else if (lowerTitle.includes('wrestling') || lowerTitle.includes('ufc') || lowerTitle.includes('mma') || lowerTitle.includes('boxing')) { sportEmoji = "🥊"; }
     else if (lowerTitle.includes('f1') || lowerTitle.includes('formula') || lowerTitle.includes('racing')) { sportEmoji = "🏎️"; }
 
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-        <rect width="100%" height="100%" fill="#0f172a"/>
-        <rect x="40" y="40" width="720" height="720" rx="35" fill="#1e293b" stroke="#334155" stroke-width="6"/>
-        <text x="50%" y="170" dominant-baseline="middle" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="38" font-weight="bold">🔴 LIVE STREAM</text>
-        <text x="50%" y="380" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="bold">${displayLine}</text>
-        <text x="50%" y="650" dominant-baseline="middle" text-anchor="middle" font-size="65">${sportEmoji}</text>
-    </svg>`;
+    let displayText = `LIVE STREAM\n\n${displayLine}\n\n${sportEmoji}`;
+    
+    // QuickChart / Dummyimage API jo direct ek image file degi (.png)
+    return `https://dummyimage.com/800x800/0f172a/ffffff.png&text=` + encodeURIComponent(displayText);
 }
 
 async function main() {
@@ -96,13 +93,17 @@ async function main() {
 
         const filePath = path.join(IMG_DIR, fileName);
 
-        // Agar image pehle se nahi hai, toh PNG convert karke save karo
+        // Agar image file pehle se nahi bani hai, toh API se download karke direct save karo
         if (!fs.existsSync(filePath)) {
-            console.log(`Creating PNG for: ${title}`);
-            const svgData = createSvgContent(title);
-            await sharp(Buffer.from(svgData))
-                .png()
-                .toFile(filePath);
+            console.log(`Downloading and saving real image for: ${title}`);
+            const imgUrl = getDirectPngUrl(title);
+            try {
+                const imgRes = await fetch(imgUrl);
+                const buffer = await imgRes.arrayBuffer();
+                fs.writeFileSync(filePath, Buffer.from(buffer));
+            } catch (err) {
+                console.log("Image download error:", err);
+            }
         } else {
             console.log(`Image already exists: ${title}`);
         }
@@ -118,7 +119,7 @@ async function main() {
         finalPlaylist += block.trim() + "\n\n";
     }
 
-    // Cleanup: Jo channels hat gaye hain, unki images delete kar do
+    // Cleanup: Purani unused images delete karna
     const existingFiles = fs.readdirSync(IMG_DIR);
     for (const file of existingFiles) {
         if (!activeFiles.has(file)) {
@@ -128,7 +129,7 @@ async function main() {
     }
 
     fs.writeFileSync(path.join(__dirname, 'playlist.m3u'), finalPlaylist, 'utf8');
-    console.log("Playlist & Images updated successfully!");
+    console.log("Playlist & Real PNG Images updated successfully!");
 }
 
 main();
