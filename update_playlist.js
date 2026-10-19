@@ -1,20 +1,18 @@
 const fs = require('fs');
 const path = require('path');
+const sharp = require('sharp'); // Sharp library SVG ko PNG me badalne ke liye
 
 const PLAYLIST_URL = "https://server-iota-nine-71.vercel.app/api/event";
 const IMG_DIR = path.join(__dirname, 'images');
 
-// Images folder agar na ho toh bana lo
 if (!fs.existsSync(IMG_DIR)) {
     fs.mkdirSync(IMG_DIR);
 }
 
-// Title ko safe filename me convert karne ke liye
 function getSafeFileName(title) {
-    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
+    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png'; // Wapas .png kar diya
 }
 
-// Simple placeholder/banner SVG ko .png file ke roop me save karne ka logic
 function createSvgContent(title) {
     let cleanTitle = title.trim().replace(/^Live[\-\s]*/i, '');
     let parts = cleanTitle.split('-');
@@ -73,9 +71,8 @@ async function main() {
     const activeFiles = new Set();
     let finalPlaylist = "#EXTM3U\n";
 
-    // GitHub raw base URL (Aapko yahan apna username aur repo name dalna hoga)
-    const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || "AapkaUsername";
-    const repoName = process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[1] : "RepoName";
+    const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || "Prtstream820894";
+    const repoName = process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[1] : "Star-event-";
     const rawBaseUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/images/`;
 
     for (let i = 1; i < blocks.length; i++) {
@@ -99,13 +96,13 @@ async function main() {
 
         const filePath = path.join(IMG_DIR, fileName);
 
-        // CHECK: Agar image pehle se bani hai toh dubara generate nahi karega!
+        // Agar file pehle se nahi hai, toh SVG ko actual PNG me convert karke save karo
         if (!fs.existsSync(filePath)) {
-            console.log(`Creating new image for: ${title}`);
+            console.log(`Converting & Creating PNG for: ${title}`);
             const svgData = createSvgContent(title);
-            fs.writeFileSync(filePath, svgData, 'utf8');
-        } else {
-            console.log(`Image already exists, skipping: ${title}`);
+            await sharp(Buffer.from(svgData))
+                .png()
+                .toFile(filePath);
         }
 
         const directImageUrl = rawBaseUrl + fileName;
@@ -119,7 +116,7 @@ async function main() {
         finalPlaylist += block.trim() + "\n\n";
     }
 
-    // CLEANUP: Jo images ab playlist me nahi hain, unhe delete kar do
+    // Cleanup unused images
     const existingFiles = fs.readdirSync(IMG_DIR);
     for (const file of existingFiles) {
         if (!activeFiles.has(file)) {
@@ -128,10 +125,8 @@ async function main() {
         }
     }
 
-    // Final playlist ko file me save karna
     fs.writeFileSync(path.join(__dirname, 'playlist.m3u'), finalPlaylist, 'utf8');
-    console.log("Playlist updated successfully!");
+    console.log("Playlist updated successfully with real PNGs!");
 }
 
 main();
-      
