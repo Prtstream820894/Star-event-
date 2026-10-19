@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Dependencies
-        run: npm install sharp
-
       - name: Run Script
         run: node update_playlist.js
 
