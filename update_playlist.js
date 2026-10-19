@@ -9,74 +9,44 @@ if (!fs.existsSync(IMG_DIR)) {
 }
 
 function getSafeFileName(title) {
-    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
+    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.jpg';
 }
 
-function getDirectPngUrl(title) {
-    let cleanTitle = title.trim().replace(/^Live[\-\s]*/i, '');
-    let parts = cleanTitle.split('-');
-    if (parts.length >= 2 && parts[0].trim() === parts[1].trim()) {
-        cleanTitle = parts[0].trim();
-    } else if (parts.length > 2) {
-        cleanTitle = (parts[0] + " " + parts[1]).trim();
-    }
+// YouTube se Horizontal (16:9) Thumbnail nikalne ka function (Shorts Skip karke)
+async function getYouTubeThumbUrl(title) {
+    try {
+        let cleanTitle = title.trim().replace(/^Live[\-\s]*/i, '');
+        // Search query me '-shorts' filter add kiya hai
+        const searchQuery = encodeURIComponent(cleanTitle + " match live -shorts");
 
-    const teamsWithFlags = {
-        "INDIA": "🇮🇳 INDIA", "IND": "🇮🇳 IND",
-        "AUSTRALIA": "🇦🇺 AUSTRALIA", "AUS": "🇦🇺 AUS",
-        "PAKISTAN": "🇵🇰 PAKISTAN", "PAK": "🇵🇰 PAK",
-        "ENGLAND": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 ENGLAND", "ENG": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 ENG",
-        "SOUTH AFRICA": "🇿🇦 SOUTH AFRICA", "SA": "🇿🇦 SA",
-        "NEW ZEALAND": "🇳🇿 NEW ZEALAND", "NZ": "🇳🇿 NZ",
-        "SRI LANKA": "🇱🇰 SRI LANKA", "SL": "🇱🇰 SL",
-        "BANGLADESH": "🇧🇩 BANGLADESH", "BAN": "🇧🇩 BAN",
-        "AFGHANISTAN": "🇦🇫 AFGHANISTAN", "AFG": "🇦🇫 AFG"
-    };
-
-    let displayLine = cleanTitle.toUpperCase();
-    for (let code in teamsWithFlags) {
-        let regex = new RegExp('\\b' + code + '\\b', 'gi');
-        displayLine = displayLine.replace(regex, teamsWithFlags[code]);
-    }
-
-    let sportEmoji = "🏆";
-    let lowerTitle = title.toLowerCase();
-    if (lowerTitle.includes('volleyball')) { sportEmoji = "🏐"; }
-    else if (lowerTitle.includes('cricket') || lowerTitle.includes('ipl') || lowerTitle.includes('t20')) { sportEmoji = "🏏"; }
-    else if (lowerTitle.includes('football') || lowerTitle.includes('soccer') || lowerTitle.includes('ucl')) { sportEmoji = "⚽"; }
-    else if (lowerTitle.includes('basketball') || lowerTitle.includes('nba')) { sportEmoji = "🏀"; }
-    else if (lowerTitle.includes('tennis')) { sportEmoji = "🎾"; }
-    else if (lowerTitle.includes('badminton')) { sportEmoji = "🏸"; }
-    else if (lowerTitle.includes('hockey')) { sportEmoji = "🏑"; }
-    else if (lowerTitle.includes('kabaddi')) { sportEmoji = "🤼"; }
-    else if (lowerTitle.includes('wrestling') || lowerTitle.includes('ufc') || lowerTitle.includes('mma') || lowerTitle.includes('boxing')) { sportEmoji = "🥊"; }
-    else if (lowerTitle.includes('f1') || lowerTitle.includes('formula') || lowerTitle.includes('racing')) { sportEmoji = "🏎️"; }
-
-    // QuickChart API configuration for professional PNG banner
-    let chartConfig = {
-        type: 'bar',
-        data: { datasets: [] },
-        options: {
-            plugins: {
-                title: {
-                    display: true,
-                    text: [ "🔴 LIVE STREAM", "", displayLine, "", sportEmoji ],
-                    color: '#ffffff',
-                    font: {
-                        size: 32,
-                        weight: 'bold'
-                    }
-                },
-                datalabels: { display: false }
-            },
-            scales: {
-                x: { display: false },
-                y: { display: false }
+        const response = await fetch("https://www.youtube.com/results?search_query=" + searchQuery, {
+            headers: {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             }
-        }
-    };
+        });
 
-    return `https://quickchart.io/chart?w=800&h=800&bkg=%230f172a&c=` + encodeURIComponent(JSON.stringify(chartConfig));
+        const html = await response.text();
+
+        // Regular 16:9 video renderer ID extract kar rahe hain (Shorts/Reels renderer skip ho jata hai)
+        const videoMatch = html.match(/"videoRenderer":\s*\{"videoId":"([^"]+)"/);
+
+        if (videoMatch && videoMatch[1]) {
+            const videoId = videoMatch[1];
+            // hqdefault.jpg hamesha 16:9 landscape aspect ratio me rehta hai
+            return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+        }
+
+        // Fallback agar videoRenderer na mile
+        const fallbackMatch = html.match(/"videoId":"([^"]+)"/);
+        if (fallbackMatch && fallbackMatch[1]) {
+            return `https://img.youtube.com/vi/${fallbackMatch[1]}/hqdefault.jpg`;
+        }
+    } catch (e) {
+        console.log("YT Fetch Error:", e);
+    }
+
+    // Default Fallback Image agar YT pe kuch na mile
+    return "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800";
 }
 
 async function main() {
@@ -113,19 +83,19 @@ async function main() {
 
         const filePath = path.join(IMG_DIR, fileName);
 
-        // Agar image file pehle se nahi bani hai, toh QuickChart se real PNG download karke save karo
+        // CHECK: Agar image GitHub pe pehle se download hai, toh dubara YT fetch nahi karega!
         if (!fs.existsSync(filePath)) {
-            console.log(`Downloading and saving real PNG image for: ${title}`);
-            const imgUrl = getDirectPngUrl(title);
+            console.log(`Searching YT & Downloading image for: ${title}`);
+            const ytThumbUrl = await getYouTubeThumbUrl(title);
             try {
-                const imgRes = await fetch(imgUrl);
+                const imgRes = await fetch(ytThumbUrl);
                 const buffer = await imgRes.arrayBuffer();
                 fs.writeFileSync(filePath, Buffer.from(buffer));
             } catch (err) {
-                console.log("Image download error:", err);
+                console.log("Download Error:", err);
             }
         } else {
-            console.log(`Image already exists: ${title}`);
+            console.log(`Image already exists on GitHub: ${title}`);
         }
 
         const directImageUrl = rawBaseUrl + fileName;
@@ -139,17 +109,17 @@ async function main() {
         finalPlaylist += block.trim() + "\n\n";
     }
 
-    // Cleanup: Purani unused images delete karna jo playlist me ab nahi hain
+    // CLEANUP: Jo live stream over ho chuki hain, unki images ko GitHub storage se delete kar do
     const existingFiles = fs.readdirSync(IMG_DIR);
     for (const file of existingFiles) {
         if (!activeFiles.has(file)) {
-            console.log(`Deleting unused image: ${file}`);
+            console.log(`Deleting old stream image: ${file}`);
             fs.unlinkSync(path.join(IMG_DIR, file));
         }
     }
 
     fs.writeFileSync(path.join(__dirname, 'playlist.m3u'), finalPlaylist, 'utf8');
-    console.log("Playlist & Real PNG Images updated successfully!");
+    console.log("Playlist & Real YT Images updated successfully!");
 }
 
 main();
