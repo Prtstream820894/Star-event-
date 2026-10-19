@@ -1,25 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="1389" tvg-name="Star Sports 3" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_tottenham_hotspur_vs__coventry_city_premier_league_soccer.jpg" group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨",Live-Tottenham Hotspur vs. Coventry City-Premier League Soccer
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2904732c8fb55ebeaa0f59316916997e:f69101b71872dcfb2cd1987d3773c0f4,82dc7db814ef5165a3d93102f40a5142:f767c4c59fbfeaf84754994a0ed5dc8b
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com/&Cookie=__hdnea__=st=1792412909~exp=1792434509~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=dea711e4cfbb971cea05355116e7387996855368fbf3333b8bccebf2b3c78a57
-#EXTVLCOPT:http-user-agent=Virat
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTVLCOPT:http-cookie=__hdnea__=st=1792412909~exp=1792434509~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=dea711e4cfbb971cea05355116e7387996855368fbf3333b8bccebf2b3c78a57
-#EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1792412909~exp=1792434509~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=dea711e4cfbb971cea05355116e7387996855368fbf3333b8bccebf2b3c78a57"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_3_BTS/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="460" tvg-name="Star Sports Select 1 HD" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_tottenham_hotspur_vs__coventry_city_premier_league_soccer.jpg" group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨",Live-Tottenham Hotspur vs. Coventry City-Premier League Soccer
+#EXTINF:-1 tvg-id="460" tvg-name="Star Sports Select 1 HD" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/ipswich_town_vs__liverpool_premier_league_soccer.jpg" group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨",Ipswich Town vs. Liverpool-Premier League Soccer
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc04426ac28359a7b620934ddbbecb7c:0074c460557b1f21a60fa0aada550e3a,8fc8499852ea5182b2a9307bd921cea1:c0ff2fbd59e26d6633f98af470c4d7b6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com/&Cookie=__hdnea__=st=1792412820~exp=1792434420~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=2e8d2586914aeecc30bb4f290d4b8a4601823caaa27c114a9ee56430e99d792d
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com/&Cookie=__hdnea__=st=1792434437~exp=1792456037~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=4863a4d1e89ff26613ab40e4e0dbf08955b76c4d7276dad1b7ba124d51365910
 #EXTVLCOPT:http-user-agent=Virat
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTVLCOPT:http-cookie=__hdnea__=st=1792412820~exp=1792434420~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=2e8d2586914aeecc30bb4f290d4b8a4601823caaa27c114a9ee56430e99d792d
-#EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1792412820~exp=1792434420~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=2e8d2586914aeecc30bb4f290d4b8a4601823caaa27c114a9ee56430e99d792d"}
+#EXTVLCOPT:http-cookie=__hdnea__=st=1792434437~exp=1792456037~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=4863a4d1e89ff26613ab40e4e0dbf08955b76c4d7276dad1b7ba124d51365910
+#EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1792434437~exp=1792456037~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=4863a4d1e89ff26613ab40e4e0dbf08955b76c4d7276dad1b7ba124d51365910"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd
 
