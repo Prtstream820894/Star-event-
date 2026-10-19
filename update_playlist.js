@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const sharp = require('sharp'); // Sharp library SVG ko PNG me badalne ke liye
+const sharp = require('sharp');
 
 const PLAYLIST_URL = "https://server-iota-nine-71.vercel.app/api/event";
 const IMG_DIR = path.join(__dirname, 'images');
@@ -10,7 +10,7 @@ if (!fs.existsSync(IMG_DIR)) {
 }
 
 function getSafeFileName(title) {
-    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png'; // Wapas .png kar diya
+    return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
 }
 
 function createSvgContent(title) {
@@ -96,13 +96,15 @@ async function main() {
 
         const filePath = path.join(IMG_DIR, fileName);
 
-        // Agar file pehle se nahi hai, toh SVG ko actual PNG me convert karke save karo
+        // Agar image pehle se nahi hai, toh PNG convert karke save karo
         if (!fs.existsSync(filePath)) {
-            console.log(`Converting & Creating PNG for: ${title}`);
+            console.log(`Creating PNG for: ${title}`);
             const svgData = createSvgContent(title);
             await sharp(Buffer.from(svgData))
                 .png()
                 .toFile(filePath);
+        } else {
+            console.log(`Image already exists: ${title}`);
         }
 
         const directImageUrl = rawBaseUrl + fileName;
@@ -116,17 +118,17 @@ async function main() {
         finalPlaylist += block.trim() + "\n\n";
     }
 
-    // Cleanup unused images
+    // Cleanup: Jo channels hat gaye hain, unki images delete kar do
     const existingFiles = fs.readdirSync(IMG_DIR);
     for (const file of existingFiles) {
         if (!activeFiles.has(file)) {
-            console.log(`Deleting old unused image: ${file}`);
+            console.log(`Deleting unused image: ${file}`);
             fs.unlinkSync(path.join(IMG_DIR, file));
         }
     }
 
     fs.writeFileSync(path.join(__dirname, 'playlist.m3u'), finalPlaylist, 'utf8');
-    console.log("Playlist updated successfully with real PNGs!");
+    console.log("Playlist & Images updated successfully!");
 }
 
 main();
