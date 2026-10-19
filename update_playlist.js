@@ -12,7 +12,6 @@ function getSafeFileName(title) {
     return title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.png';
 }
 
-// Direct real image URL generator (Jo ki ek asli PNG image return karega)
 function getDirectPngUrl(title) {
     let cleanTitle = title.trim().replace(/^Live[\-\s]*/i, '');
     let parts = cleanTitle.split('-');
@@ -53,10 +52,31 @@ function getDirectPngUrl(title) {
     else if (lowerTitle.includes('wrestling') || lowerTitle.includes('ufc') || lowerTitle.includes('mma') || lowerTitle.includes('boxing')) { sportEmoji = "🥊"; }
     else if (lowerTitle.includes('f1') || lowerTitle.includes('formula') || lowerTitle.includes('racing')) { sportEmoji = "🏎️"; }
 
-    let displayText = `LIVE STREAM\n\n${displayLine}\n\n${sportEmoji}`;
-    
-    // QuickChart / Dummyimage API jo direct ek image file degi (.png)
-    return `https://dummyimage.com/800x800/0f172a/ffffff.png&text=` + encodeURIComponent(displayText);
+    // QuickChart API configuration for professional PNG banner
+    let chartConfig = {
+        type: 'bar',
+        data: { datasets: [] },
+        options: {
+            plugins: {
+                title: {
+                    display: true,
+                    text: [ "🔴 LIVE STREAM", "", displayLine, "", sportEmoji ],
+                    color: '#ffffff',
+                    font: {
+                        size: 32,
+                        weight: 'bold'
+                    }
+                },
+                datalabels: { display: false }
+            },
+            scales: {
+                x: { display: false },
+                y: { display: false }
+            }
+        }
+    };
+
+    return `https://quickchart.io/chart?w=800&h=800&bkg=%230f172a&c=` + encodeURIComponent(JSON.stringify(chartConfig));
 }
 
 async function main() {
@@ -93,9 +113,9 @@ async function main() {
 
         const filePath = path.join(IMG_DIR, fileName);
 
-        // Agar image file pehle se nahi bani hai, toh API se download karke direct save karo
+        // Agar image file pehle se nahi bani hai, toh QuickChart se real PNG download karke save karo
         if (!fs.existsSync(filePath)) {
-            console.log(`Downloading and saving real image for: ${title}`);
+            console.log(`Downloading and saving real PNG image for: ${title}`);
             const imgUrl = getDirectPngUrl(title);
             try {
                 const imgRes = await fetch(imgUrl);
@@ -119,7 +139,7 @@ async function main() {
         finalPlaylist += block.trim() + "\n\n";
     }
 
-    // Cleanup: Purani unused images delete karna
+    // Cleanup: Purani unused images delete karna jo playlist me ab nahi hain
     const existingFiles = fs.readdirSync(IMG_DIR);
     for (const file of existingFiles) {
         if (!activeFiles.has(file)) {
