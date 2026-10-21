@@ -1,1 +1,20 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="461" tvg-name="Star Sports Select 2 HD" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_cleveland_guardians_at_tampa_bay_rays_mlb_baseball.jpg" group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨",Live-Cleveland Guardians at Tampa Bay Rays-MLB Baseball
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c443dffefb256a5b7a1364cc4af3529:1d78f35200eb5977a95de669788cf128,25fbb2a932b25e9aacae947b2f873d3c:ac6a6a416b9d26be6819e80c2fe5d39f
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com/&Cookie=__hdnea__=st=1792517537~exp=1792539137~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=c69197f91970af27af63774a86d5d7f4a931989aa6d472104a930372eb869763
+#EXTVLCOPT:http-user-agent=Virat
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTVLCOPT:http-cookie=__hdnea__=st=1792517537~exp=1792539137~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=c69197f91970af27af63774a86d5d7f4a931989aa6d472104a930372eb869763
+#EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1792517537~exp=1792539137~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=c69197f91970af27af63774a86d5d7f4a931989aa6d472104a930372eb869763"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_85_w_250_dhome_posters_44c5d57c_c3bd_4ea6_a367_52c4388e5287_jpg__live_2026_asian_para_games_2026_asian_para_games.jpg",Live-2026 Asian Para Games-2026 Asian Para Games
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://raw.githubusercontent.com/Prtstream820894/Prt-live/refs/heads/main/key.json
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+https://ottlive.dishhome.com.np/protected/jATOzZkB0RDJ74Ryniuo/dash/manifest.mpd
+
