@@ -1,1 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="461" tvg-name="Star Sports Select 2 HD" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/liverpool_vs__fulham_premier_league_soccer.jpg" group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨",Liverpool vs. Fulham-Premier League Soccer
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c443dffefb256a5b7a1364cc4af3529:1d78f35200eb5977a95de669788cf128,25fbb2a932b25e9aacae947b2f873d3c:ac6a6a416b9d26be6819e80c2fe5d39f
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Virat&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com/&Cookie=__hdnea__=st=1792586421~exp=1792608021~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=9b7078efb62aa39d10086841961aa5edeb41ab015efb747ef0cd144067475425
+#EXTVLCOPT:http-user-agent=Virat
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTVLCOPT:http-cookie=__hdnea__=st=1792586421~exp=1792608021~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=9b7078efb62aa39d10086841961aa5edeb41ab015efb747ef0cd144067475425
+#EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1792586421~exp=1792608021~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=9b7078efb62aa39d10086841961aa5edeb41ab015efb747ef0cd144067475425"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd
+
