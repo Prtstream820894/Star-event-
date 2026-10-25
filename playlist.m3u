@@ -1,55 +1,26 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7430_567430_h__live_commonwealth_kabaddi_championship_2026_commonwealth_kabaddi.jpg",Live-Commonwealth Kabaddi Championship 2026-Commonwealth Kabaddi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7cdde012ce04e90a08b90622e020000:13603245acab444faef6cab5198de55f
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7433_567433_h__live_commonwealth_kabaddi_championship_2026_commonwealth_kabaddi.jpg",Live-Commonwealth Kabaddi Championship 2026-Commonwealth Kabaddi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=81872faa1d6b45fa9045cdeb2e310000:9b88168e61274587a471962c46b94675
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7432_567432_h__live_2nd_odi__india_vs__zimbabwe_women__039_s_one_day_international_cricket.jpg",Live-2nd ODI: India vs. Zimbabwe-Women&#039;s One-Day International Cricket
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9dacc80134404c34ba184022c28d0000:982183fb4d9449c995859b7cff512092
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_manchester_united_vs__bournemouth_premier_league_soccer.jpg",Live-Manchester United vs. Bournemouth-Premier League Soccer
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/liverpool_vs__manchester_city_premier_league_highlights.jpg",Liverpool vs. Manchester City-Premier League Highlights
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f718ac1c70414b7ead6ebffa05fa0000:7b3a3cb3eda946de88aa44bbaaa179bb
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1793016056~acl=%2f*~id=aeda14e27228ba67dd023a9204b8e0d3~data=hdntl~hmac=4907266200d4af9c030a3d9dce3d3186da22d27ee868d2713710233a1fcc72d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c0451222af/index.mpd
 
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_manchester_united_vs__bournemouth_premier_league_soccer.jpg",Live-Manchester United vs. Bournemouth-Premier League Soccer
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_sunderland_vs__leeds_united_premier_league_soccer.jpg",Live-Sunderland vs. Leeds United-Premier League Soccer
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae3b1efc6eee47fa90e0360b16ad0000:3c8be3ec7a4e4ab6994725420d95f971
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1793016056~acl=%2f*~id=aeda14e27228ba67dd023a9204b8e0d3~data=hdntl~hmac=4907266200d4af9c030a3d9dce3d3186da22d27ee868d2713710233a1fcc72d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd
 
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_liverpool_vs__brighton__amp__hove_albion_premier_league_soccer.jpg",Live-Liverpool vs. Brighton &amp; Hove Albion-Premier League Soccer
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_85_w_250_dhome_posters_44c5d57c_c3bd_4ea6_a367_52c4388e5287_jpg__live_hamburger_sv_vs__1__fc_union_berlin_women__039_s_bundesliga_soccer.jpg",Live-Hamburger SV vs. 1. FC Union Berlin-Women&#039;s Bundesliga Soccer
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
+#KODIPROP:inputstream.adaptive.license_key=https://raw.githubusercontent.com/Prtstream820894/Prt-live/refs/heads/main/key.json
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
+https://ottlive.dishhome.com.np/protected/jATOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 
