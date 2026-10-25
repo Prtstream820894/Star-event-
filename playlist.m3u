@@ -1,4 +1,22 @@
 #EXTM3U
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7432_567432_h__live_2nd_odi__india_vs__zimbabwe_women__039_s_one_day_international_cricket.jpg",Live-2nd ODI: India vs. Zimbabwe-Women&#039;s One-Day International Cricket
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dacc80134404c34ba184022c28d0000:982183fb4d9449c995859b7cff512092
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/brentford_vs__liverpool_premier_league_highlights.jpg",Brentford vs. Liverpool-Premier League Highlights
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae3b1efc6eee47fa90e0360b16ad0000:3c8be3ec7a4e4ab6994725420d95f971
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1792972861~acl=%2f*~id=00346b1a1b5b0c258346bd548ee082cb~data=hdntl~hmac=ec3c0f77c7b0c42a6e83af5349efb67d757ec3f1e46cdcf7c7d4b29a05e717d8","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd
+
 #EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_85_w_250_dhome_posters_44c5d57c_c3bd_4ea6_a367_52c4388e5287_jpg__live_rashtriya_cricket_league.jpg",Live-Rashtriya Cricket League
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://raw.githubusercontent.com/Prtstream820894/Prt-live/refs/heads/main/key.json
