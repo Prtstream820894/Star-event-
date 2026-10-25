@@ -1,1 +1,10 @@
 #EXTM3U
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_tampa_bay_rays_at_milwaukee_brewers_2026_world_series.jpg",Live-Tampa Bay Rays at Milwaukee Brewers-2026 World Series
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1792929653~acl=%2f*~id=61c8a3ad0a83bddd6dbc99ef106939f7~data=hdntl~hmac=7b5bccbbb8b843a2d1f8f32a3883fe5122dbb238630cb82d94595cc590eae4b0","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
+
