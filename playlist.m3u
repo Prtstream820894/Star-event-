@@ -1,10 +1,37 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_mlb_baseball_mlb_baseball.jpg",Live-MLB Baseball-MLB Baseball
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7432_567432_h__live_field_hockey_field_hockey.jpg",Live-Field Hockey-Field Hockey
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dacc80134404c34ba184022c28d0000:982183fb4d9449c995859b7cff512092
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1793145662~acl=%2f*~id=019ffeadeac363abcf08d022bba954e8~data=hdntl~hmac=8cf473bc2ed4e964864a6deed0eac9a66f715e84c9cc5bf5f8ba9ceee545fe5f","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/liverpool_v_brighton__amp__hove_albion_premier_league__match_highlights.jpg",Liverpool v Brighton &amp; Hove Albion-Premier League: Match Highlights
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f718ac1c70414b7ead6ebffa05fa0000:7b3a3cb3eda946de88aa44bbaaa179bb
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1793145662~acl=%2f*~id=019ffeadeac363abcf08d022bba954e8~data=hdntl~hmac=8cf473bc2ed4e964864a6deed0eac9a66f715e84c9cc5bf5f8ba9ceee545fe5f","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c0451222af/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_nepal_premier_league_t20_cricket_nepal_premier_league_t20_cricket.jpg",Live-Nepal Premier League T20 Cricket-Nepal Premier League T20 Cricket
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793102471~acl=%2f*~id=dba84709ea99a8c1a2dfdfeccaedd9bf~data=hdntl~hmac=81a9b474c1245f261ba0718d58d0568d2be61ad7357f235387d9152b354cce36","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1793145662~acl=%2f*~id=019ffeadeac363abcf08d022bba954e8~data=hdntl~hmac=8cf473bc2ed4e964864a6deed0eac9a66f715e84c9cc5bf5f8ba9ceee545fe5f","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_baroda_vs__jammu_and_kashmir_ranji_trophy.jpg",Live-Baroda vs. Jammu and Kashmir-Ranji Trophy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c57bd6cb156c47c1bf86a6c4171d0000:e75d26242c9944aeb91e055d0f29ee4b
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1793145662~acl=%2f*~id=019ffeadeac363abcf08d022bba954e8~data=hdntl~hmac=8cf473bc2ed4e964864a6deed0eac9a66f715e84c9cc5bf5f8ba9ceee545fe5f","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a3321f1/index.mpd
 
