@@ -1,10 +1,10 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_milwaukee_brewers_at_tampa_bay_rays_2026_world_series.jpg",Live-Milwaukee Brewers at Tampa Bay Rays-2026 World Series
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_baroda_vs__jammu_and_kashmir_ranji_trophy.jpg",Live-Baroda vs. Jammu and Kashmir-Ranji Trophy
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
+#KODIPROP:inputstream.adaptive.license_key=c57bd6cb156c47c1bf86a6c4171d0000:e75d26242c9944aeb91e055d0f29ee4b
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793275209~acl=%2f*~id=6cea9f11306ff2c90270981e9f703c30~data=hdntl~hmac=598f94028c2c456d40f62b6b12e786c1706ae231ecffc22f04a4348f31cfc5e9","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
+#EXTHTTP:{"Cookie":"hdntl=exp=1793318458~acl=%2f*~id=3395850391754a1350173d8cc8ebf740~data=hdntl~hmac=ebd7e90e8766d9d2e0266d4610e45be1c3f199dd05f13ce1a455c003094b1038","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a3321f1/index.mpd
 
