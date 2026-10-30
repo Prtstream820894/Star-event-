@@ -1,1 +1,19 @@
 #EXTM3U
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7432_567432_h__live_bangladesh_vs__malaysia_2026_men__039_s_asian_champions_trophy.jpg",Live-Bangladesh vs. Malaysia-2026 Men&#039;s Asian Champions Trophy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dacc80134404c34ba184022c28d0000:982183fb4d9449c995859b7cff512092
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1793404866~acl=%2f*~id=90ffa93d6245e71b3b00bfcb1223b7b6~data=hdntl~hmac=2a7dfe7237c8a60824a48fc4ce0aeabd51e79f55a4bd468b314314978d6c7197","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/arsenal_vs__liverpool_premier_league_highlights.jpg",Arsenal vs. Liverpool-Premier League Highlights
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae3b1efc6eee47fa90e0360b16ad0000:3c8be3ec7a4e4ab6994725420d95f971
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1793404866~acl=%2f*~id=90ffa93d6245e71b3b00bfcb1223b7b6~data=hdntl~hmac=2a7dfe7237c8a60824a48fc4ce0aeabd51e79f55a4bd468b314314978d6c7197","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd
+
