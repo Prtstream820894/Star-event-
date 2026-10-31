@@ -1,37 +1,10 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7430_567430_h__live_commonwealth_kabaddi_championship_2026_commonwealth_kabaddi.jpg",Live-Commonwealth Kabaddi Championship 2026-Commonwealth Kabaddi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7cdde012ce04e90a08b90622e020000:13603245acab444faef6cab5198de55f
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793491260~acl=%2f*~id=9231a3d596629173bf7bf89641cb31fe~data=hdntl~hmac=e6579426824c2d84f436fe5eb9a3169e05fb68e0099d785a866fb8ef5d9f2c4b","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7433_567433_h__live_commonwealth_kabaddi_championship_2026_commonwealth_kabaddi.jpg",Live-Commonwealth Kabaddi Championship 2026-Commonwealth Kabaddi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=81872faa1d6b45fa9045cdeb2e310000:9b88168e61274587a471962c46b94675
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793491260~acl=%2f*~id=9231a3d596629173bf7bf89641cb31fe~data=hdntl~hmac=e6579426824c2d84f436fe5eb9a3169e05fb68e0099d785a866fb8ef5d9f2c4b","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_manchester_city_vs__brighton__amp__hove_albion_premier_league_soccer.jpg",Live-Manchester City vs. Brighton &amp; Hove Albion-Premier League Soccer
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_aston_villa_vs__fulham_premier_league_soccer.jpg",Live-Aston Villa vs. Fulham-Premier League Soccer
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae3b1efc6eee47fa90e0360b16ad0000:3c8be3ec7a4e4ab6994725420d95f971
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793491260~acl=%2f*~id=9231a3d596629173bf7bf89641cb31fe~data=hdntl~hmac=e6579426824c2d84f436fe5eb9a3169e05fb68e0099d785a866fb8ef5d9f2c4b","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1793534457~acl=%2f*~id=876ca8fde1c976d1069da6d22c693ae8~data=hdntl~hmac=1686e80ec4221729e7b7697ca57b494bd06ecea0533d9064fb1533c597e3908c","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_brentford_vs__nottingham_forest_premier_league_soccer.jpg",Live-Brentford vs. Nottingham Forest-Premier League Soccer
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793491260~acl=%2f*~id=9231a3d596629173bf7bf89641cb31fe~data=hdntl~hmac=e6579426824c2d84f436fe5eb9a3169e05fb68e0099d785a866fb8ef5d9f2c4b","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
 
