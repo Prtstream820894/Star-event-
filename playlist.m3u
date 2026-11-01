@@ -1,10 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/ipswich_town_vs__liverpool_premier_league_highlights.jpg",Ipswich Town vs. Liverpool-Premier League Highlights
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9bced3f4d794419e99012ad6c1090000:c4c7f22fc71445c28ea15cb3fdb1b3be
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1793534457~acl=%2f*~id=876ca8fde1c976d1069da6d22c693ae8~data=hdntl~hmac=1686e80ec4221729e7b7697ca57b494bd06ecea0533d9064fb1533c597e3908c","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
-
