@@ -1,10 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7432_567432_h__live_china_vs__thailand_2026_women__039_s_asian_champions_trophy.jpg",Live-China vs. Thailand-2026 Women&#039;s Asian Champions Trophy
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7430_567430_h__live_emirates_eagles_vs__united_tigers_abu_dhabi_t10_cricket.jpg",Live-Emirates Eagles vs. United Tigers-Abu Dhabi T10 Cricket
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9dacc80134404c34ba184022c28d0000:982183fb4d9449c995859b7cff512092
+#KODIPROP:inputstream.adaptive.license_key=b7cdde012ce04e90a08b90622e020000:13603245acab444faef6cab5198de55f
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest.type=mpd
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1795132860~acl=%2f*~id=b459ae0167a6bb0153e3e23ee9a2f5da~data=hdntl~hmac=dde43067b7886ef3dcbf4be82bebe000f974fd53b4c5c0d2c3b8ca62589a4c21","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
+#EXTHTTP:{"Cookie":"hdntl=exp=1795176061~acl=%2f*~id=f4e832cdabf6ce8769b0268641b8a16b~data=hdntl~hmac=66787d13ad73c22107ed7d22df7ffb6a71b4b25db6fa11e55c8144d37f92134d","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd
+
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_abu_dhabi_t10_2026_eagles_v_tigers.jpg",Live Abu Dhabi T10 2026 Eagles v Tigers
+#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
+#EXTHTTP:{"Cookie":"hdntl=exp=1795176061~acl=%2f*~id=f4e832cdabf6ce8769b0268641b8a16b~data=hdntl~hmac=66787d13ad73c22107ed7d22df7ffb6a71b4b25db6fa11e55c8144d37f92134d","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+https://jcevents.hotstar.com/bpk-tv/082c75fa2fec61647e9192140d488d30/JioHotstar/082c75fa2fec61647e9192140d488d30.m3u8
 
