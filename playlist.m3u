@@ -1,15 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/q_90_w_1920_sources_r1_cms_prod_7430_567430_h__live_emirates_eagles_vs__yas_lions_abu_dhabi_t10_cricket.jpg",Live-Emirates Eagles vs. Yas Lions-Abu Dhabi T10 Cricket
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7cdde012ce04e90a08b90622e020000:13603245acab444faef6cab5198de55f
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest.type=mpd
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1795089670~acl=%2f*~id=bf610b1e18e4dbf634a6c9490ea411b1~data=hdntl~hmac=c92924b8b5d83d8ac709b865548a1724d11e5b718c469a1db859625c506f4280","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd
-
-#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_abu_dhabi_t10_2026_eagles_v_lions.jpg",Live Abu Dhabi T10 2026 Eagles v Lions
-#EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
-#EXTHTTP:{"Cookie":"hdntl=exp=1795089670~acl=%2f*~id=bf610b1e18e4dbf634a6c9490ea411b1~data=hdntl~hmac=c92924b8b5d83d8ac709b865548a1724d11e5b718c469a1db859625c506f4280","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
-https://jcevents.hotstar.com/bpk-tv/082c75fa2fec61647e9192140d488d30/JioHotstar/082c75fa2fec61647e9192140d488d30.m3u8
-
