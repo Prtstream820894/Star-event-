@@ -1,1 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_hong_kong_open__quarterfinals_bwf_world_tour_badminton.jpg",Live-Hong Kong Open, Quarterfinals-BWF World Tour Badminton
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=12ed56d780abcfebcd23aa27e4ac5014:6784567890abcfebcd23aa27e4ac2813
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+https://wbd.skandha.tv/EuroSport/EuroSport.isml/.mpd
+
