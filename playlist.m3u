@@ -1,1 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="✨✦ʟɪᴠᴇ ᴇᴠᴇɴᴛꜱ✦✨" tvg-logo="https://raw.githubusercontent.com/Prtstream820894/Star-event-/main/images/live_hobart_hurricanes_vs__sydney_thunder_women__039_s_big_bash_league.jpg",Live-Hobart Hurricanes vs. Sydney Thunder-Women&#039;s Big Bash League
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=12ed56d780abcfebcd23aa27e4ac5014:6784567890abcfebcd23aa27e4ac2813
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest.type=mpd
+https://wbd.skandha.tv/EuroSport/EuroSport.isml/.mpd
+
